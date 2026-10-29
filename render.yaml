@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ca2-student-mcp
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: MONGODB_URI
+        sync: false
+      - key: FRONTEND_URL
+        value: https://ca2-student-8kyxq4q0e-jo-7859.vercel.app
