@@ -1,6 +1,17 @@
 {
-  "name": "ca2-student-mcp", "version": "1.0.0", "private": true, "main": "server.js",
-  "scripts": {"start": "node server.js"},
-  "dependencies": {"@modelcontextprotocol/sdk": "^1.12.1", "dotenv": "^16.4.7", "zod": "^3.24.1"},
-  "engines": {"node": ">=20"}
+  "name": "ca2-student-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
